@@ -1,0 +1,117 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#google_quiz {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#R_S_K_HIGHER_SECONDARY_SCHOOL {
+	position: absolute;
+	left: 445px;
+	top: 101px;
+	overflow: visible;
+	width: 1031px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 61px;
+	color: rgba(255,224,22,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 422px;
+	height: 101px;
+	left: 232px;
+	top: 540px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: adminlogin.html;
+	cursor: pointer;
+}
+#CREATE_QUIZ {
+	position: absolute;
+	left: 296px;
+	top: 555px;
+	overflow: visible;
+	width: 295px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(112,112,112,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 422px;
+	height: 101px;
+	left: 1215px;
+	top: 540px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: userlogin.html;
+	cursor: pointer;
+}
+#START_QUIZ {
+	position: absolute;
+	left: 1294px;
+	top: 555px;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(112,112,112,1);
+}
